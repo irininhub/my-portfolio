@@ -1,0 +1,19 @@
+.nav {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  font-palette:lavenderblush ;
+
+}
+.nav a{
+
+  color: #e8c792;
+  text-decoration: none;
+}
+
+
+@media screen and(max-width: 380px){
+  .nav {
+    font-size: smaller;
+  }
+}

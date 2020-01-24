@@ -1,0 +1,23 @@
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(37, 37, 39, 0.94);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*olivk  #dbc53b
+darkfiolet #77325f
+light pink #feefea
+blue #c7ddda
+*/
