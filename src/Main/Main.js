@@ -7,7 +7,7 @@ function Main() {
             <div className={s.container}>
                 <div className={s.greeting}>
                     <span>Hello!</span>
-                    <span>I'm <span>Irina Potrebko</span></span>
+                    <span className = {s.name}>I'm <span>Irina Potrebko</span></span>
                     <h1>I'm front-end developer</h1>
                 </div>
                 <div className={s.photo}>
