@@ -1,6 +1,8 @@
 .footer {
   height: 300px;
-  background-color: #1f1f20;
+  background-image: url(https://c.wallhere.com/photos/b5/51/1920x1080_px_Simple_Background-1330509.jpg!d);
+
+//background-color: #1f1f20;
   display: flex;
   justify-content: center;
 }
