@@ -14,10 +14,11 @@
 }
 
 .box{
-  width: 30px;
-  height:30px;
-  background-color: lightgrey;
+  width: 40px;
+  height:40px;
+  background-color: #adc1e6;
   border: 1px solid;
+  margin-left: 10px;
 }
 .boxes{
   display: flex;

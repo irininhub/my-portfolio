@@ -1,14 +1,13 @@
 .box {
   width: 200px;
   height: 240px;
-  background-color: lightyellow;
+  //background-color: lightyellow;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
-
 .space1{
   width: 200px;
   display: flex;
@@ -16,18 +15,16 @@
   align-items: center;
   margin-top: 43px;
 }
-
 .space2{
   width: 200px;
   background-color: lightgrey;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center ;
 }
 
-.photo{
-  height: 50px;
-  width: 50px;
-  background-color: #d4d9d9;
-
+.icon{
+  height: 60px;
+  width: 60px;
+  background-color: #adc1e6;
+  margin-bottom: 30px;
+ transform: rotate(45deg);
 }

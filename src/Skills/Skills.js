@@ -10,9 +10,9 @@ function Skills() {
              <BlockTitle title = 'My skills'/>
 
                 <div className={s.skills}>
-                    <SkillsComp/>
-                    <SkillsComp/>
-                    <SkillsComp/>
+                    <SkillsComp title = 'React'/>
+                    <SkillsComp title = 'JS'/>
+                    <SkillsComp title = 'HTML/CSS'/>
                 </div>
 
             </div>
