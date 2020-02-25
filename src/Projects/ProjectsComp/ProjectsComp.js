@@ -1,24 +1,22 @@
 import React from 'react';
 import s from './ProjectsComp.module.css'
 import Button from "../../Button/Button";
-
-function ProjectsComp() {
+//{props.projectImg}
+function ProjectsComp(props) {
     return (<div className={s.project}>
             <div className={s.visual}>
-                <div className={s.picbut}>
-                    <img src="" alt=""/>
 
-                        <Button buttonTitle = 'смотреть'/>
+                    <img src='' alt=""/>
+                    <a href="" className={s.btnShow}>Cмотреть</a>
 
-                </div>
             </div>
 
             <div className={s.text}>
-                <div>
-                    Название проекта
+                <div className={s.title}>
+                    {props.title}
                 </div>
-                <div>
-                    Краткое описание
+                <div className={s.description}>
+                    Краткое описание что то про проект надо немного написать xnj yt pyf.
                 </div>
             </div>
 

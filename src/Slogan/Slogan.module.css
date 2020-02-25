@@ -1,19 +1,27 @@
 .sloganall {
-  height: 200px;
-background-color: #141414;
-  display: flex;
-  justify-content: center;
-  }
-
-
-.conteiner{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 80%;
+    height: 200px;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
 }
 
-.button{
-  width: 50%;
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.slogan{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 28px;
+  //color: #f89800;
+  font-stretch: normal;
+   color: #e5c06f;
+}
+.button {
+    width: 50%;
 }

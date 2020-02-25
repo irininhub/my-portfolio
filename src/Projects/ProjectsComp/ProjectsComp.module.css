@@ -1,36 +1,62 @@
-
+.project {
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    position: relative;
+}
 
 .visual {
-
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.visual:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-color: rgba(3, 1, 1, 0.49);
 }
 
 .text {
-
-    background-color: lightgrey;
+    background-color: rgba(70, 70, 72, 0.56);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.project{
-    width: 300px;
-    height: 300px;
-
+.title {
+    color: #e5c06f;
+    font-size: 16px;
+    padding: 0;
+    margin: 15px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-.picbut{
+.description {
+    margin: 0 15px 15px;
+    color: #feefea;
+}
+.btnShow{
+    height: 50px;
+    width: 100px;
+    background: #feefea;
     display: flex;
-   justify-content: center;
     align-items: center;
-    height: 140px;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
 }
-
-@media screen and (max-width: 370px){
-    .project{
-width: 100%;
-    }
-}
+/*@media screen and (max-width: 370px){*/
+/*    .project{*/
+/*width: 100%;*/
+/*    }*/
+/*}*/

@@ -9,13 +9,13 @@ function Contacts() {
             <div className={s.conteiner}>
                 <BlockTitle title='contacts'/>
                 <form className={s.form}>
-                    <input placeholder='Name'></input>
-                    <input placeholder='E-mail'></input>
-                    <textarea placeholder='Message'></textarea>
+                    <input className={s.formArea} placeholder='Name'/>
+                    <input className={s.formArea} placeholder='E-mail'/>
+                    <textarea className={s.message} placeholder='Message'/>
+
                 </form>
-                <div>
-                    <Button buttonTitle='submit'/>
-                </div>
+                <div className={s.button}>
+                    <Button buttonTitle='submit'/></div>
             </div>
 
         </div>

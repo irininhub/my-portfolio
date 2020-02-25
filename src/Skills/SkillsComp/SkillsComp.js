@@ -1,20 +1,24 @@
 import React from 'react';
 import s from './SkillsComp.module.css'
 
+
 function SkillsComp(props) {
+
     return (
-
-        <div className={s.box}>
-            <div className={s.space1}>
-                <div className={s.icon}>
-                    <img src="" alt=""/>
+        <div className={s.skill}>
+            <div className={s.shapka}>
+                <div className={props.className}>
+                    <div className={s.icon}>
+                        <img src={props.icon} alt=""/>
+                    </div>
                 </div>
-              {props.title}
+
+                <h3 className={s.title}>
+                    {props.title}
+                </h3>
             </div>
-            <div className={s.space2}>Подробное описание навыка</div>
+            <div className={s.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, enim...</div>
         </div>
-
-
     );
 }
 

@@ -3,8 +3,8 @@ import s from './Button.module.css'
 
 function Button(props) {
     return (
-        <div className={s.button}>
-            <button>
+        <div >
+            <button className={s.button}>
                 {props.buttonTitle}
             </button>
         </div>
