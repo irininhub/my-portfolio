@@ -1,43 +1,16 @@
 
-/*.box { СКИЛЗКОМП*/
-/*    width: 200px;*/
-/*    hight: 300px;*/
-/*    background-color: lightyellow;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: space-evenly;*/
-/*    align-items: center;*/
-/*    margin-bottom: 20px;*/
-/*}*/
-
-/*.space1{*/
-/*    width: 200px;*/
-/*    hight: 150px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*}*/
-
-/*.space2{*/
-/*    width: 200px;*/
-/*    hight: 150px;*/
-/*    background-color: lightgrey;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*}*/
-
-/*.photo{*/
-/*    height: 50px;*/
-/*    width: 50px;*/
-/*    background-color: #d4d9d9;*/
-
-/*}*/
-
 .App {
 
 }
 
+.particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+opacity: 0.7;
+}
 
 /*.skills {*/
 /*    height: 100vh;  СКИЛЗ*****/

@@ -1,12 +1,14 @@
 .project {
     width: 300px;
     height: 300px;
-    margin: 40px;
+    margin:10px 40px 40px;
     position: relative;
 }
 
 .visual {
     background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +58,8 @@
     text-decoration: none;
 }
 /*@media screen and (max-width: 370px){*/
-/*    .project{*/
-/*width: 100%;*/
+/*    .project {*/
+/*        !*margin:0 0 30px;*!*/
+/*        margin-bottom: 30px;*/
 /*    }*/
 /*}*/

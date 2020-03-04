@@ -6,6 +6,7 @@
 //background-color: #1f1f20;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .conteiner{
   width: 80%;
