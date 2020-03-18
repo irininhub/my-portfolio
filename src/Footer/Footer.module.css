@@ -65,5 +65,11 @@
   .name{
     text-align: center;
   }
+  .box{
+    width: 45px;
+    height:45px;
+  }
+  .icon{
+    margin: 10px;}
 }
 

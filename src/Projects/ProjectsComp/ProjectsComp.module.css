@@ -60,21 +60,15 @@
     transition: 500ms;
     position: absolute;
     z-index: 1;
-    left: 105px;
-    top:80px;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -30%)
 }
 .btnShow:hover{
     height: 50px;
     width: 100px;
     color: #9dcc9d;
     background-color: rgba(31, 31, 32, 0.69);
-    left: 100px;
-    top:75px;
-}
 
-/*@media screen and (max-width: 370px){*/
-/*    .project {*/
-/*        !*margin:0 0 30px;*!*/
-/*        margin-bottom: 30px;*/
-/*    }*/
-/*}*/
+}

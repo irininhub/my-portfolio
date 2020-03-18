@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .container {
@@ -40,8 +39,7 @@
 .greeting span:nth-child(2) span {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    color: darkseagreen;
-    /*color: #adadad;*/
+    color: #adadad;
     font-stretch: normal;
     font-size: 60px;
     line-height: 56px;
@@ -59,9 +57,10 @@
     bottom: 3px;
     z-index: -1;
 }
-.greeting span:nth-child(2),
-.greeting span:nth-child(2) span:hover{
-    color: darkseagreen;
+.greeting span:nth-child(2):hover,
+.greeting span:nth-child(2):hover{
+   transform: scale( 1.1, 1.1);
+
 }
 
 .h1 {
@@ -115,7 +114,7 @@
         flex-direction: column;
     }
     .greeting span:nth-child(1) {
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .greeting span:nth-child(2) span:before {
         bottom: -4px;
