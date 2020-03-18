@@ -1,5 +1,5 @@
 .footer {
-  height: 300px;
+  height: 270px;
   background-image: url(../images/fonblur.jpg);
   background-position: center;
   /*background-image: url(https://c.wallhere.com/photos/b5/51/1920x1080_px_Simple_Background-1330509.jpg!d);*/
@@ -30,7 +30,7 @@
   justify-content: space-around;
   margin: 15px;
 }
-.box{
+.icon{
   width: 60px;
   height:60px;
   background-color: #e3d6d1;
@@ -38,12 +38,16 @@
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-.box img{
+.icon img{
   width: 100%;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
+}
+.icon:hover{
+ transform: scale(1.15, 1.15);
+  transition: all 0.1s ease-in-out 0s;
 }
 .copyright{
   color: #feefea;

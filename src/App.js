@@ -19,7 +19,7 @@ const particlesOpt = {
       }
     }
   }
-}
+};
 
 
 function App() {

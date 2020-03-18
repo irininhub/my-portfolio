@@ -4,9 +4,11 @@ import s from './ProjectsComp.module.css'
 
 function ProjectsComp(props) {
     return (<div className={s.project}>
-            <div className={s.visual} style={props.style}>
-                    <a className={s.btnShow}>Watch</a>
-            </div>
+
+
+            <a className={s.btnShow}>Watch</a>
+            <div className={s.visual} style={props.style}/>
+
 
             <div className={s.text}>
                 <span className={s.title}>{props.title}</span>

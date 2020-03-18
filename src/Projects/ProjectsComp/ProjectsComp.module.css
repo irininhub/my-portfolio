@@ -6,13 +6,8 @@
 }
 
 .visual {
-    background-color: aliceblue;
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 200px;
 }
 
@@ -24,6 +19,9 @@
     right: 0;
     height: 200px;
     background-color: rgba(3, 1, 1, 0.49);
+}
+.visual:hover {
+   filter: blur(3px);
 }
 
 .text {
@@ -48,15 +46,32 @@
     color: #feefea;
 }
 .btnShow{
+     height: 40px;
+     width: 90px;
+     background: #feefea;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    transition: 500ms;
+    position: absolute;
+    z-index: 1;
+    left: 105px;
+    top:80px;
+}
+.btnShow:hover{
     height: 50px;
     width: 100px;
-    background: #feefea;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    text-decoration: none;
+    color: #9dcc9d;
+    background-color: rgba(31, 31, 32, 0.69);
+    left: 100px;
+    top:75px;
 }
+
 /*@media screen and (max-width: 370px){*/
 /*    .project {*/
 /*        !*margin:0 0 30px;*!*/

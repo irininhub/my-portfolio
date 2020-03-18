@@ -42,8 +42,18 @@
     justify-content: center;
     margin-bottom: 30px;
     transform: rotate(45deg);
+    border: 2px solid transparent;
 }
+.icon:hover {
+    transform: rotate(45deg);
+    /*border-radius: 50%;*/
+    transition: 0.07s;
+    border: 2px solid darkseagreen;
+}
+.icon img:hover {
+    transform: rotate(-45deg) scale(1.1, 1.1);
 
+}
 .icon img {
     width: 80%;
     transform: rotate(-45deg);

@@ -6,9 +6,14 @@
 
 }
 .nav a{
-
   color: #e8c792;
   text-decoration: none;
+}
+
+.link:hover{
+  color: #98c898;
+  transition: 0.1s;
+  transform: scale(1.1, 1.1);
 }
 
 

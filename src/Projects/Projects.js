@@ -5,6 +5,7 @@ import BlockTitle from "../BlockTitle/BlockTitle";
 import SNImg from '../images/SNpng.png'
 import CounterImg from '../images/counter.png'
 import TodoListImg from '../images/Todo.png'
+import Fade from "react-reveal/Fade";
 
 let SocialNet = {
     backgroundImage: `url(${SNImg})`
@@ -19,7 +20,8 @@ let TodoList = {
 function Projects() {
     return (
         <div className={s.AllClassProjects}>
-            <div className={s.conteiner}>
+            <Fade clear>
+            <div className={s.conteiner} id = 'project'>
                 <BlockTitle title='My projects'/>
                 <div className={s.projects}>
                     <ProjectsComp title ='Social network' style={SocialNet}/>
@@ -27,8 +29,8 @@ function Projects() {
                     <ProjectsComp title ='Counter' style={Counter}/>
                     <ProjectsComp title ='Dog game' projectImg={SocialNet}/>
                 </div>
-
             </div>
+                </Fade>
         </div>
     );
 }

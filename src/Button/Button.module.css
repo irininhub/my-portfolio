@@ -1,5 +1,5 @@
 .button {
-    width: 150px;
+    width: 130px;
     height: 40px;
     border: none;
     font-family: 'Josefin Sans', sans-serif;
@@ -9,8 +9,29 @@
     padding: 0;
     font-size: 14px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1;
     letter-spacing: 1px;
     outline: none;
-
+    position: relative;
+    transition: 500ms;
 }
+
+
+.button:hover{
+    background-color: rgba(230, 141, 0, 0.91);
+    color: #feefea;
+}
+.button:active{
+    background-color: darkseagreen;
+    color: rgba(230, 141, 0, 0.91);
+}
+
+/*.button::after {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    max-width: 190px;*/
+/*    height: 10px;*/
+/*    background-color: #e9548d;*/
+/*    z-index: -1;*/
+/*    bottom: 0;*/
+/*}*/
