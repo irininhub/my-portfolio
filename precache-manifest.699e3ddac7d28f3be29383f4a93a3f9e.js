@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "832ff4c37d466a4fb989271162b89ee1",
+    "revision": "b0f988a74b9321843c7456ab41457a95",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "3dbf098d5a394fb84735",
-    "url": "/my-portfolio/static/css/main.35787cb9.chunk.css"
+    "revision": "e344b65a63582693dbff",
+    "url": "/my-portfolio/static/css/main.5cdc4b0e.chunk.css"
   },
   {
-    "revision": "8e38a11793657fd46322",
-    "url": "/my-portfolio/static/js/2.a6a9cf09.chunk.js"
+    "revision": "26b304a1bdc5f1d24e50",
+    "url": "/my-portfolio/static/js/2.58449505.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/my-portfolio/static/js/2.a6a9cf09.chunk.js.LICENSE"
+    "url": "/my-portfolio/static/js/2.58449505.chunk.js.LICENSE"
   },
   {
-    "revision": "3dbf098d5a394fb84735",
-    "url": "/my-portfolio/static/js/main.b46ef717.chunk.js"
+    "revision": "e344b65a63582693dbff",
+    "url": "/my-portfolio/static/js/main.8a22a14b.chunk.js"
   },
   {
-    "revision": "4184a7eacb7c48bd5c06",
-    "url": "/my-portfolio/static/js/runtime-main.4a96037b.js"
+    "revision": "6d7a7337562760299d40",
+    "url": "/my-portfolio/static/js/runtime-main.00bba678.js"
   },
   {
     "revision": "e208fe4b42495e181db20f5217df5c9e",
@@ -56,15 +56,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/html_icon.00945e78.png"
   },
   {
-    "revision": "a37eeddf89e5a9ea840cf301858d2513",
-    "url": "/my-portfolio/static/media/js-icon.a37eeddf.png"
+    "revision": "b4053c8a4165e3db949036856e4eebbd",
+    "url": "/my-portfolio/static/media/js-icon.b4053c8a.png"
   },
   {
     "revision": "796950400234e06e31a311539cd6e54b",
     "url": "/my-portfolio/static/media/react.79695040.png"
   },
   {
-    "revision": "d89aa96ee37364816f7ba286343840ea",
-    "url": "/my-portfolio/static/media/redux.d89aa96e.png"
+    "revision": "4c8847eca1494de4d0937f9ec247d9a7",
+    "url": "/my-portfolio/static/media/redux.4c8847ec.png"
   }
 ]);
