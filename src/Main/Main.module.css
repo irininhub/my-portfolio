@@ -114,7 +114,8 @@
         flex-direction: column;
     }
     .greeting span:nth-child(1) {
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
     .greeting span:nth-child(2) span:before {
         bottom: -4px;
