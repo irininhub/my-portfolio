@@ -1,13 +1,25 @@
-.contacts {
-  height: 95vh;
+.wrapper {
+  min-height: 100vh;
   background-color: #212121;
   display: flex;
   justify-content: center;
   position: relative;
+align-items: center;
+  flex-direction: column;
 }
 
-.conteiner{
+.contacts{
   width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: #feefea;
+  margin-bottom: 50px;
+}
+.mycontact{
+
+}
+.conteiner{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,9 +35,10 @@
   flex-direction: column;
   width: 550px;
   height: 200px;
-  margin: 50px;
+  margin: 0 50px 80px 50px;
+
 }
-.formArea,
+.formData,
 .message{
   background-color: rgba(70, 70, 72, 0.56);
   border: 1px solid #4a4a4a;
@@ -36,14 +49,20 @@
   margin-bottom: 13px;
   box-sizing: border-box;
 }
-.formArea:focus,
+.formData:focus,
 .message:focus{
   border: 1px solid darkseagreen;
   transition: all 0.5s ease-in-out 0s;
 }
 .button{
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
+.mycontact h3{
+  color: #898989;
+}
+/*.mycontact span{*/
+/*  color: #898989;*/
+/*}*/
 @media screen and (max-width: 657px) {
   .form{
     width: 100%;

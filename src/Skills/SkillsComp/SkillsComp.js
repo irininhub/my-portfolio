@@ -17,7 +17,7 @@ function SkillsComp(props) {
                     {props.title}
                 </h3>
             </div>
-            <div className={s.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, enim...</div>
+            <div className={s.text}>{props.description}</div>
         </div>
     );
 }
