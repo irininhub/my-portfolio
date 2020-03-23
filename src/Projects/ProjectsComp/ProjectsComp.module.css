@@ -1,14 +1,15 @@
 .project {
     width: 300px;
-    height: 300px;
+    height: 250px;
     margin:10px 40px 50px;
     position: relative;
+    overflow: hidden;
 }
 
 .visual {
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 250px;
 }
 
 .visual:before {
@@ -17,25 +18,16 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 200px;
+    height: 250px;
     background-color: rgba(3, 1, 1, 0.49);
 }
-.visual:hover {
-   filter: blur(3px);
-}
 
-.text {
-    background-color: rgba(70, 70, 72, 0.56);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .title {
     color: #e5c06f;
-    font-size: 16px;
+    font-size: 20px;
     padding: 0;
-    margin: 15px;
+    margin: 50px 20px 15px;
     line-height: 1.2;
     letter-spacing: 1px;
     font-family: 'Josefin Sans', sans-serif;
@@ -46,29 +38,41 @@
     color: #feefea;
 }
 .btnShow{
-     height: 40px;
-     width: 90px;
+     /*height: 40px;*/
+     /*width: 90px;*/
      background: #feefea;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+color: #1f1f20;
+    padding: 10px;
+    margin-top: 20px;
      text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
     transition: 500ms;
-    position: absolute;
-    z-index: 1;
-    top: 30%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -30%)
 }
 .btnShow:hover{
-    height: 50px;
-    width: 100px;
+    padding: 15px;
     color: #9dcc9d;
     background-color: rgba(31, 31, 32, 0.69);
+}
+
+.hiddentext {
+    text-align: center;
+    position: absolute;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    bottom: -101%;
+    left: 0;
+    transition: .4s;
+}
+.project:hover .hiddentext {
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    /*background-color: rgba(70, 70, 72, 0.56);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }

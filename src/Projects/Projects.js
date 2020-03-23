@@ -21,10 +21,15 @@ let dog = {
     backgroundImage: `url(${dogImg})`
 };
 
-const socialNetText = 'Used technologies: ';
-const todoListText =  'Used technologies: ';
-const counterText =  'Used technologies: ';
-const dogText =  'Used technologies: ';
+const socialNetText = ''; //Used technologies:
+const todoListText =  '';
+const counterText =  '';
+const dogText =  '';
+
+const sNLink = 'https://github.com/irininhub/SocialNetWork';
+const todoLink = 'https://github.com/irininhub/Todolist';
+const counterLink = 'https://github.com/irininhub/Counter';
+const dogLink = 'https://github.com/irininhub/Dog-game';
 
 
 function Projects() {
@@ -34,10 +39,22 @@ function Projects() {
             <div className={s.conteiner} id = 'project'>
                 <BlockTitle title='My projects'/>
                 <div className={s.projects}>
-                    <ProjectsComp title ='Social network' style={socialNet} description = {socialNetText}/>
-                    <ProjectsComp title ='To do list' style={todoList} description = {todoListText}/>
-                    <ProjectsComp title ='Counter' style={counter} description = {counterText}/>
-                    <ProjectsComp title ='Dog game' style={dog} description = {dogText}/>
+                    <ProjectsComp title ='Social network' style={socialNet}
+                                  description = {socialNetText}
+                                  link = {sNLink}
+                    />
+                    <ProjectsComp title ='To do list' style={todoList}
+                                  description = {todoListText}
+                                  link = {todoLink}
+                    />
+                    <ProjectsComp title ='Counter' style={counter}
+                                  description = {counterText}
+                                  link = {counterLink}
+                    />
+                    <ProjectsComp title ='Dog game' style={dog}
+                                  description = {dogText}
+                                  link = {dogLink}
+                    />
                 </div>
             </div>
                 </Fade>
