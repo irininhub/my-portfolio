@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.782c5148.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.1f2fff29.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.1f2fff29.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.00bba678.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.00bba678.js.map",
-    "static/js/2.969e427d.chunk.js": "/my-portfolio/static/js/2.969e427d.chunk.js",
-    "static/js/2.969e427d.chunk.js.map": "/my-portfolio/static/js/2.969e427d.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.b255bd2b.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.6bc55e85.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.6bc55e85.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.4a96037b.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.4a96037b.js.map",
+    "static/js/2.939f971d.chunk.js": "/my-portfolio/static/js/2.939f971d.chunk.js",
+    "static/js/2.939f971d.chunk.js.map": "/my-portfolio/static/js/2.939f971d.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.e5b9981b619218a706aca90ccefd51bd.js": "/my-portfolio/precache-manifest.e5b9981b619218a706aca90ccefd51bd.js",
+    "precache-manifest.f72adc64752f491e68f7ad4d3a267dcb.js": "/my-portfolio/precache-manifest.f72adc64752f491e68f7ad4d3a267dcb.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.782c5148.chunk.css.map": "/my-portfolio/static/css/main.782c5148.chunk.css.map",
-    "static/js/2.969e427d.chunk.js.LICENSE": "/my-portfolio/static/js/2.969e427d.chunk.js.LICENSE",
+    "static/css/main.b255bd2b.chunk.css.map": "/my-portfolio/static/css/main.b255bd2b.chunk.css.map",
+    "static/js/2.939f971d.chunk.js.LICENSE": "/my-portfolio/static/js/2.939f971d.chunk.js.LICENSE",
     "static/media/Irina.jpg": "/my-portfolio/static/media/Irina.e208fe4b.jpg",
     "static/media/SNpng.png": "/my-portfolio/static/media/SNpng.4ca4dc31.png",
     "static/media/Telega.png": "/my-portfolio/static/media/Telega.174aa666.png",
@@ -25,9 +25,9 @@
     "static/media/redux.png": "/my-portfolio/static/media/redux.4c8847ec.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.00bba678.js",
-    "static/js/2.969e427d.chunk.js",
-    "static/css/main.782c5148.chunk.css",
-    "static/js/main.1f2fff29.chunk.js"
+    "static/js/runtime-main.4a96037b.js",
+    "static/js/2.939f971d.chunk.js",
+    "static/css/main.b255bd2b.chunk.css",
+    "static/js/main.6bc55e85.chunk.js"
   ]
 }
