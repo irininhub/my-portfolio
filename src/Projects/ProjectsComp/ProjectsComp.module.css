@@ -1,7 +1,7 @@
 .project {
     width: 300px;
-    height: 250px;
-    margin:10px 40px 50px;
+    height: 220px;
+    margin: 10px 40px 50px 0;
     position: relative;
     overflow: hidden;
 }
@@ -18,7 +18,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 250px;
+    height: 220px;
     background-color: rgba(3, 1, 1, 0.49);
 }
 
@@ -37,21 +37,23 @@
     margin: 0 15px 15px;
     color: #feefea;
 }
-.btnShow{
-     /*height: 40px;*/
-     /*width: 90px;*/
-     background: #feefea;
-color: #1f1f20;
+
+.btnShow {
+    background: #feefea;
+    color: #1f1f20;
     padding: 10px;
-    margin-top: 20px;
-     text-decoration: none;
+    margin: 20px 10px 0;
+    text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
     transition: 500ms;
 }
-.btnShow:hover{
+
+.btnShow:hover {
+    border: 0px;
+position: relative;
     padding: 15px;
     color: #9dcc9d;
     background-color: rgba(31, 31, 32, 0.69);
@@ -67,9 +69,10 @@ color: #1f1f20;
     left: 0;
     transition: .4s;
 }
+
 .project:hover .hiddentext {
     bottom: 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;

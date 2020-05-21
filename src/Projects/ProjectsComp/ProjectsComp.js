@@ -7,14 +7,20 @@ function ProjectsComp(props) {
 
     return (
         <div className={s.project}>
+
             <div className={s.visual} style={props.style}/>
             <div className={s.hiddentext}>
                 <span className={s.title}>{props.title}</span>
                 <span className={s.description}>
                     {props.description}
                 </span>
-                <a href={props.link}
-                   className={s.btnShow}>Watch</a>
+                <div className={s.links}>
+                    <a href={props.linkCode}
+                       className={s.btnShow}>Code</a>
+                    <a href={props.linkDemo}
+                       className={s.btnShow}>Demo</a>
+                </div>
+
             </div>
         </div>
 
