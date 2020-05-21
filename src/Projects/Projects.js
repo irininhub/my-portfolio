@@ -32,9 +32,9 @@ const counterLinkCode = 'https://github.com/irininhub/Counter';
 const dogLinkCode = 'https://github.com/irininhub/Dog-game';
 
 const sNLinkDemo = 'https://irininhub.github.io/SocialNetWork';
-const todoLinkDemo = 'https://github.com/irininhub/Todolist';
+const todoLinkDemo = 'https://irininhub.github.io/Todolist';
 const counterLinkDemo = 'https://irininhub.github.io/Counter';
-const dogLinkDemo = 'https://github.com/irininhub/Dog-game';
+const dogLinkDemo = 'https://irininhub.github.io/Dog-game';
 
 
 function Projects() {
