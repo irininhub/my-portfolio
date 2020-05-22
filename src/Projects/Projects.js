@@ -29,7 +29,7 @@ const dogText = '';
 const sNLinkCode = 'https://github.com/irininhub/SocialNetWork';
 const todoLinkCode = 'https://github.com/irininhub/Todolist';
 const counterLinkCode = 'https://github.com/irininhub/Counter';
-const dogLinkCode = 'https://github.com/irininhub/Dog-game';
+const dogLinkCode = 'https://irininhub.github.io/dog-game';
 
 const sNLinkDemo = 'https://irininhub.github.io/SocialNetWork';
 const todoLinkDemo = 'https://irininhub.github.io/Todolist';
